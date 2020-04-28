@@ -1,0 +1,210 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'AAMagnum';
+  src: url('AAMagnum.eot');
+  src: url('AAMagnum.eot?#iefix') format('embedded-opentype'),
+       url('AAMagnum.svg#AAMagnum') format('svg'),
+       url('AAMagnum.ttf') format('truetype'),
+       url('AAMagnum.woff') format('woff'),
+       url('AAMagnum.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	background-color: #003369;
+	width: 100%;
+	height:100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	overflow-x: hidden;
+}
+
+audio {
+	width: 500px;
+	height: 35px;
+	opacity:0.97;
+}
+
+#HEADER {
+	width: 1920px;
+	height: 230px;
+}
+
+#HEADER img {
+	position: relative;
+}
+
+.HEADER_BG {
+	width: 1910px;
+	height: 230px;
+	padding-top: -10px;
+	margin-bottom: -16px;
+	margin-left: -3px; 
+}
+
+.HEADER_BG1 {
+	width: 370px;
+	height: 80px;
+	left: 50px;
+	bottom: 500px;
+	opacity: 1;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	position:absolute;
+}
+
+.HEADER_BG2 {
+	width: 564px;
+	height: 179px;
+	opacity: 1;
+	margin-bottom: 200px;
+	left: 280px;
+	bottom: 210px;
+	padding: 0 0 0 0;
+}
+
+.object {
+	position: absolute;
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+}
+
+.nyan {
+	width: 350px;
+	height: 130px;
+	bottom: 500px;
+	left: 70px;
+}
+
+#Cat:hover .moving{
+	transform: translate(240px,0);
+	-webkit-transform: translate(240px,0);
+	-o-transform: translate(240px,0);
+	-moz-transform: translate(240px,0);
+}
+
+hr {
+	width: 1920px;
+	margin: 0 0 8 0;
+	padding: 0 0 0 0;
+}
+
+.MENUBAR {
+	width: 1900px;
+	height: 60px;
+}
+
+.MENULIST {
+	margin-right: 800px;
+	height: 30px; 
+}
+
+ul.MENULIST {
+	float:right;
+	text-decoration: none;
+	color: Gainsboro;
+	font-family: MV BOLI;
+}
+
+ul.MENULIST li {
+
+	float:left;
+	list-style: none;
+	color: Gainsboro;
+	line-height: 41px;
+}
+
+.MENUBAR ul li a {
+	font-size: 25px;
+	color:Gainsboro;
+	padding: 0 20px;
+	text-decoration: none;
+	border: 1.1px solid white;
+}
+
+.MENUBAR ul li a:hover {
+	background: white;
+	color:black;
+	text-decoration: none;
+}
+
+#selected :hover {
+	color: white;
+	background: black;
+	text-anchor: bold;
+}
+
+.p1 {
+	text-align:center;
+	color: Gainsboro;
+	font-family: MV BOLI;
+	font-size: 18px;
+	opacity: 0.97;
+	margin-top: -9px;
+	margin-bottom: 9px;
+}
+
+.button {
+	margin-left:871px;
+	text-align: center;
+	font-size: 25px;
+	color: Gainsboro;
+	font-family:AAMagnum;
+	width: 70px;
+	height: 20px;
+	border: 3px solid white;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 10px;
+}
+
+.gifs img {
+	width:400px;
+	height:300px;
+}
