@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Press Start 2P', cursive;
+	background-color: #003369;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-clip: padding-box;
+	background-image: url(images/header-bg.png);
+}
+
+.play-now {
+	width: 500px;
+	height: 150px;
+	transition: .5s all;
+}
+
+.play-now:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.menu {
+	width: 100%;
+	border-top: 2px solid whitesmoke;
+}
+
+.menu-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu ul li {
+	list-style-type: none;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.menu ul li:hover {
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 13px;
+}
+
+#selected {
+	background-color:rgba(0, 0, 0, 0.5);
+	color: white;
+	border: 1px solid white;
+}
+
+#selected:hover {
+	background-color:black;
+	color: white;
+	border: 1px solid white;
+}
+
+.button-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.button-description {
+	color: white;
+	margin: 25px 0;
+}
+
+.button {
+	cursor: pointer;
+	margin-bottom: 25px;
+	font-family: 'Press Start 2P', cursive;
+	padding: 10px 15px;
+}
+
+.gifs-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gifs {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1320px;
+}
+
+.gifs img {
+	margin: 10px;
+	width: 290px;
+	height: 250px;
+}
+
+.madeBy {
+	font-family:MV BOLI;
+	color: white;
+	text-align: center;
+}
